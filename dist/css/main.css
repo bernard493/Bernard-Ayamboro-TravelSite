@@ -1,0 +1,187 @@
+/* CSS reset */
+/*<uniquifier>: Use a unique and descriptive class name*/
+/* <weight>: Use a value from 300 to 700*/
+* {
+  font-family: "Rasa", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+input {
+  border: 1px solid #b0b0b0;
+  padding: 3px 5px 4px;
+  color: #979797;
+  width: 190px;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+q:before,
+q:after {
+  content: "";
+}
+
+abbr,
+acronym {
+  border: 0;
+}
+
+/* NAVBAR CSS*/
+.nav_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background-color: #ffffff;
+}
+.nav_container__logo__text {
+  color: #335576;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.nav_container__link__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_container__link__list__item {
+  margin: 1rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #335576;
+}
+.nav_container__link__list__item:hover {
+  color: #03a9f4;
+}
+
+/*HERO SECTION CSS*/
+.hero_container {
+  background-color: #fefaf5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.hero_container__text {
+  width: 40%;
+}
+.hero_container__text__slogan {
+  color: #335576;
+  font-weight: bold;
+  font-size: 4rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.hero_container__text__paragraph {
+  color: #335576;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.hero_container__button {
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: #db7a4e;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 4rem;
+  border: none;
+  cursor: pointer;
+}
+
+.hero_image__container {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}/*# sourceMappingURL=main.css.map */
